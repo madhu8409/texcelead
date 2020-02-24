@@ -92,11 +92,9 @@ header,
   }
 
   .aboutText {
-    font-size: larger;
+    font-size:small;
   }
-  .p-1{
-    font-size: x-small;
-  }
+ 
 
 }
 

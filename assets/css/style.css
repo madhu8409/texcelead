@@ -1,0 +1,165 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    
+    font-family:  "Times New Roman";
+    Color: rgb(0, 0, 0);
+    Size: 30px;
+    font-weight: 400px;
+}
+
+::-webkit-scrollbar {
+  width: 0px;  /* Remove scrollbar space */
+  background: transparent;  /* Optional: just make scrollbar invisible */
+}
+
+#home {
+    background-color:#fff;
+    background-repeat: no-repeat;
+    background-size: cover; 
+    height: 720px;
+    color:white;
+}
+
+/* start of header */
+
+.navbar-custom {
+  transition:500ms ease;
+  background-color: transparent;
+}
+
+/* change the link color */
+.navbar-custom .navbar-nav .nav-link {
+  color: #000040;
+  font-size: large;
+}
+
+.nav-item {
+  text-align: center;
+}
+
+/* change the color of active or hovered links */
+.navbar-custom .nav-item.active .nav-link {
+  color: #365FAC;
+  font-weight: 900;
+}
+
+.navbar-custom .nav-item:hover .nav-link {
+  color: #365FAC;
+}
+
+.bg-custom {
+    background-color: #0a1410;
+}
+
+/* end of header */
+
+/* footer */
+.new4 {
+    border: 1.5px solid #151b54;
+  }
+
+  .s19{
+      list-style: none;
+  }
+/* end of footer */
+
+/* start of about page */
+  html,
+body,
+header,
+.view {
+  height: 95%;
+}
+
+@media (max-width: 740px) {
+  html,
+  body,
+  header,
+  .view {
+    height: 1000px;
+  }
+}
+@media (min-width: 100px) and (max-width: 850px) {
+  html,
+  body,
+  header,
+  .view {
+    height:900px;
+  }
+  
+  .footNote{
+    font-size: small;
+  }
+
+  .aboutText {
+    font-size: larger;
+  }
+
+}
+
+.new2 {
+    border: 1.5px solid #151b54;
+    width: 35%;
+    
+  }
+  .team-border{
+    border: 2px solid #151b54;
+    width: 82%;
+    margin: 0 auto;
+}
+.new3 {
+    border-top: solid 3px black;
+    width: 20%;
+    margin: 0px auto; 
+  }
+/* end of about page */
+
+.form-control{
+    background-color: #f1f1f1;
+}
+
+/* prod&services */
+.new5 {
+  border-top: solid #151b54;
+  width: 20%;
+  margin-left:1.5rem;
+  
+}
+
+#square-shape-example .square { 
+  width: 33%; height: auto;
+ 
+  float: left;
+  margin-right:2rem; 
+  
+  -webkit-shape-outside:square();
+  shape-outside:square();
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+.new6 {
+  border-top:5px solid #1e3567;
+  width: 20%;
+  margin: 0 auto;
+ }
+
+ .new7 {
+  border-top:10px solid  #1e3567;
+  width: 20%;
+  margin: 0 auto;
+ }
+
+ .arrow {
+  list-style-type: '→ ';
+  
+}
+
+
+
+
+/* css for hr */
+
